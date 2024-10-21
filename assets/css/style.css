@@ -1,6 +1,14 @@
 /*  ----------- */
 /*  GENERAL     */
 /*  ----------- */
+/* Normal - Bold - Italic */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.ttf), url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
 body {
     margin: 0;
     background-color: #f3f3f3;
@@ -19,6 +27,37 @@ section {
 
 p {
     margin: 0;
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    margin: 0;
+    color: #ffffff;
+}
+
+h3 {
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #17abb3;
+}
+
+h4 {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid #dadada;
+    gap: 15px;
 }
 /*  ----------- */
 /*  END GENERAL */
@@ -41,7 +80,7 @@ figure {
 }
 
 .image_profile {
-    min-width: 30%;
+    min-width: 25%;
     display: flex;
     justify-content: center;
 }
@@ -54,7 +93,8 @@ figure {
 .coordinate {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    padding: 32px;
 }
 
 .coordinate_item {
@@ -64,10 +104,15 @@ figure {
 
 .info_item {
     display: inline-flex;
-    gap: 5px;
+    gap: 10px;
+}
+
+.info_item p {
+    color: #ffffff;
 }
 
 .image_profile img {
+    border: 5px solid #ffffff;
     width: 50%;
     border-radius: 50%;
 }
@@ -92,8 +137,15 @@ figure {
 
 /* ASIDE */
 .aside_content {
-    min-width: 30%;
+    min-width: 25%;
     background-color: #e3e3e3;
+}
+
+.aside_content section {
+    gap: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 0;
 }
 
 .languages_item {
@@ -101,9 +153,14 @@ figure {
     justify-content: space-between;
 }
 
+.skills {
+    padding-top: 32px;
+}
+
 .skills_item {
     display: inline-flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .stars {
@@ -111,8 +168,18 @@ figure {
     gap: 5px;
 }
 
+ul {
+    margin-left: 16px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: square;
+    color: #17abb3;
+}
+
 /* GENERAL CONTENT */
 .general_content {
+    padding: 32px;
     background-color: #ffffff;
 }
 
@@ -121,13 +188,42 @@ figure {
 }
 
 .general_content section {
-    gap: 15px;
+    gap: 10px;
+}
+
+.indent_text {
+    text-indent: 3em;
+}
+
+.justify_text {
+    text-align: justify;
 }
 
 .general_item_section {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.formations {
+    margin-top: 5px;
+}
+
+.internships {
+    margin-top: 5px;
+}
+
+.professional_experience {
+    margin-top: 5px;
+}
+
+.date_item p {
+    color: #17abb3;
+}
+
+.label_item p {
+    font-style: italic;
+    font-size: 0.7em;
 }
 /*  ----------- */
 /*  END MAIN    */
@@ -141,14 +237,19 @@ footer {
 }
 
 footer p {
+    font-style: italic;
+    font-size: 0.8em;
     margin: 0;
+    margin-bottom: 8px;
     text-align: center;
+    color: #ffffff;
 }
 
 .social_media {
     display: inline-flex;
     justify-content: center;
-    gap: 10px;
+    padding: 16px;
+    gap: 15px;
 }
 
 .footer_content {
