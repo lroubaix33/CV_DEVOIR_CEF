@@ -215,6 +215,12 @@ ul {
     align-items: center;
 }
 
+.general_item_section:hover {
+    padding: 8px;
+    border-left: 5px solid #17abb3;
+    background-color: #e3e3e3;
+}
+
 .formations {
     margin-top: 5px;
 }
@@ -260,6 +266,10 @@ footer p {
     justify-content: center;
     padding: 16px;
     gap: 15px;
+}
+
+.social_media a:hover {
+    opacity: 0.5;
 }
 
 .footer_content {
