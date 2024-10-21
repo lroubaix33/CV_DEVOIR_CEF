@@ -1,0 +1,80 @@
+/*  ----------- */
+/*  GENERAL     */
+/*  ----------- */
+body {
+    margin: 0;
+    background-color: #f3f3f3;
+}
+
+.body_content {
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*  ----------- */
+/*  END GENERAL */
+/*  ----------- */
+
+/*  ----------- */
+/*  HEADER      */
+/*  ----------- */
+header {
+    background-color: #17abb3;
+}
+
+figure {
+    margin: 0;
+}
+
+.header_content {
+    display: inline-flex;
+    width: 100%;
+}
+
+.image_profile {
+    min-width: 30%;
+}
+
+.info_contact {
+    width: 100%;
+    text-align: center;
+}
+/*  ----------- */
+/*  END HEADER  */
+/*  ----------- */
+
+/*  ----------- */
+/*  MAIN        */
+/*  ----------- */
+/* @min-height: 100vh - 100% Viewport height */
+.main_content {
+    display: inline-flex;
+    min-height: 100vh;
+}
+
+.aside_content {
+    min-width: 30%;
+    background-color: #e3e3e3;
+}
+
+.general_content {
+    background-color: #ffffff;
+}
+/*  ----------- */
+/*  END MAIN    */
+/*  ----------- */
+
+/*  ----------- */
+/*  FOOTER      */
+/*  ----------- */
+footer {
+    background-color: #17abb3;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+/*  ----------- */
+/*  END FOOTER  */
+/*  ----------- */
