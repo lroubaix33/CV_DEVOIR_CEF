@@ -11,6 +11,15 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+}
 /*  ----------- */
 /*  END GENERAL */
 /*  ----------- */
@@ -33,11 +42,40 @@ figure {
 
 .image_profile {
     min-width: 30%;
+    display: flex;
+    justify-content: center;
 }
 
 .info_contact {
     width: 100%;
     text-align: center;
+}
+
+.coordinate {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.coordinate_item {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.info_item {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.image_profile img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.image_profile figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*  ----------- */
 /*  END HEADER  */
@@ -52,13 +90,44 @@ figure {
     min-height: 100vh;
 }
 
+/* ASIDE */
 .aside_content {
     min-width: 30%;
     background-color: #e3e3e3;
 }
 
+.languages_item {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.skills_item {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.stars {
+    display: inline-flex;
+    gap: 5px;
+}
+
+/* GENERAL CONTENT */
 .general_content {
     background-color: #ffffff;
+}
+
+.general_content h4 {
+    margin: 0;
+}
+
+.general_content section {
+    gap: 15px;
+}
+
+.general_item_section {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /*  ----------- */
 /*  END MAIN    */
@@ -74,6 +143,17 @@ footer {
 footer p {
     margin: 0;
     text-align: center;
+}
+
+.social_media {
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
 }
 /*  ----------- */
 /*  END FOOTER  */
