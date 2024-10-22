@@ -67,6 +67,28 @@ hr {
     border: 1px solid #dadada;
     gap: 15px;
 }
+
+/*  Prevent big font on full screen,
+    Font-size and Icon adjusted to not
+    be bigger than actual 1300px width screen.
+*/
+@media (min-width: 1300px) {
+    body {
+        font-size: 1em;
+    }
+    .info_item img {
+        max-width: 16px;
+        max-height: 16px;
+    }
+    .stars img {
+        height: 16px !important;
+        width: 16px !important;
+    }
+    .social_media img {
+        height: 16px !important;
+        width: 16px !important;
+    }
+}
 /*  ----------- */
 /*  END GENERAL */
 /*  ----------- */
